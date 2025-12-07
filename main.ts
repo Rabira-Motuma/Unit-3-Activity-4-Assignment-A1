@@ -34,6 +34,9 @@ priceOfNuts = (nutsAsNumber * 5);
 priceOfWashers = (washersAsNumber * 3);
 totalPrice = (priceOfBolts + priceOfNuts + priceOfWashers);
 
+//output
+console.log(``)
+
 // check parts
 if (boltsAsNumber > nutsAsNumber) {
     console.log("Check the Order - not enough nuts for the bolts you purchased.");
